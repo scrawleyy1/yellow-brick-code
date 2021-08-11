@@ -1,20 +1,59 @@
 html {
-    font-family: 'Times New Roman', Times, serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 body {
-    background-color: blueviolet;
+	background-color: rgb(143, 96, 153);
 }
+
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+ nav li {
+	display: inline;
+  }
+
+.main_friends {
+	background-color: rgb(203, 172, 218);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
-nav li {
-    display: inline;
+
+.friend {
+	max-width: 200px;
+	height: 300px;
+	overflow: hidden;
+	background-color: white;
 }
-.main_friends div{
-    background-color: cornflowerblue;
-    display: flex;
-    flex-wrap: wrap;
+
+.friend img {
+	width: 100%;
+	height: auto;
 }
- 
+
+main {
+	display: flex;
+}
+
+.main_content {
+	flex:3;
+}
+aside {
+	flex: 1;
+}
+
+.main_content img {
+	width: 100%;
+}
+
+footer {
+	background-color: black;
+}
+
+footer nav {
+	background-color: rgb(92, 167, 202);
+}
